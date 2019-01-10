@@ -11,8 +11,15 @@ fun main(args : Array<String>)
     println(readOnlyList)
     println(listOf('a', 'b', 'c').joinToString(
             separator = "", prefix = "(", postfix = ")"))
+
+    displaySeparator('a', 3)
 }
 
+fun displaySeparator(character: Char = '*', size: Int = 10) {
+    repeat(size) {
+        print(character)
+    }
+}
 
 
 fun foo(): Int {
