@@ -7,6 +7,9 @@ println(" get climate "+getDesc(Color.BLUE))
     {
         println("key :$key , values :$value")
     }
+    for (ch in "abc") {
+        print(ch + 1)
+    }
 }
 enum class Color{
     BLUE,ORANGE,RED
