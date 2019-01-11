@@ -15,4 +15,11 @@ fun main(args: Array<String>) {
     println(isValidIdentifier(""))       // false
     println(isValidIdentifier("012"))    // false
     println(isValidIdentifier("no$"))    // false
+    val ab = try {
+         println(Integer.parseInt("1"))
+
+    }
+    catch (e:NumberFormatException){
+        println(e)
+    }
 }
