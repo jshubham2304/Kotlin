@@ -5,7 +5,7 @@ import kotlin.random.Random
 val ALPHABET = 'A'..'F'
 val CODE_LENGTH = 4
 
-fun main(args : Array<String>) {
+fun main() {
     playBullsAndCows()
 }
 
