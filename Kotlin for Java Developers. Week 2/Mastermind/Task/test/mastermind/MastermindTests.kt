@@ -31,7 +31,7 @@ class MastermindTests {
 
     // repeated letters
     @Test
-    fun testRightPosition() = testEvaluation("AABC", "ADFE", 1, 1)
+    fun testRightPosition() = testEvaluation("AABC", "ADFE", 1, 0)
 
     @Test
     fun testSameLetters() = testEvaluation("AABC", "DEAA", 0, 2)
