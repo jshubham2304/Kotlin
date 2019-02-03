@@ -1,2 +1,2 @@
 # Kotlin
-#Learning Kotlin for JAva Developer
+#Learning Kotlin for Java Developer
